@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/icon/galerie.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Photo.app</title>  
+  </head>
+
+  <body onload="includeHTML(); render()">
+      
+    <div w3-include-html="./template/header.html"></div>
+
+    <h1 class="m-h2">Photo gallery</h1>
+    <div id="bigPicture"></div>
+    <div id="picContainer"></div>
+
+    <div w3-include-html="./template/footer.html"></div>
+
+  </body>
+
+</html>
